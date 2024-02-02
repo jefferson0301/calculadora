@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-width: 300px;
+    background-color: black;
+    text-align: center;
+    margin: 5rem auto ;
+}
+
+.visor{
+    width: 80%;
+    margin: 2rem 0;
+    padding: 1rem 0;
+}
+
+.lista-teclas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lista-teclas__quebra-linha{
+    display: flex;
+    margin-bottom: 0rem;
+}
+
+.lista-teclas li{
+    list-style: none;
+}
+
+.botao{
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.ativo{
+    color: red;
+    background: blue;
+}
